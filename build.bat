@@ -1,0 +1,1 @@
+clang++ -Wall -std=c++17 src/builder.cpp -Isrc -o builder.exe

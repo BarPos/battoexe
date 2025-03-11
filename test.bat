@@ -1,0 +1,2 @@
+echo test file
+pause
