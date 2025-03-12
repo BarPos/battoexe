@@ -13,10 +13,10 @@ winget install Microsoft.VisualStudio.2022.BuildTools --force --override "--quie
 
 Compile the builder using `build.bat`
 
+Optional: Add the bin folder to path
+
 ### Ussage
 
 ```
-builder.exe [relative path to a bat file]
+battoexe.exe [bat file] [output file]
 ```
-
-The builder will create a directory (`output`). This directory will include: `b64data.h` - temporary file, `bat.exe` - your exe file. 
