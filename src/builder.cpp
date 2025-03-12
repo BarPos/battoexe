@@ -722,7 +722,7 @@ int main(int argc, char** argv){\
     std::ofstream file;\
     file.open(filename);\
     if(!file.is_open()){\
-        fprintf(stderr, \"COULD NOT CREATE A TEMP FILE: %s\n\", filename.c_str());\
+        fprintf(stderr, \"COULD NOT CREATE A TEMP FILE: \%s\\n\", filename.c_str());\
         exit(1);\
     }\
     file << batFile;\
